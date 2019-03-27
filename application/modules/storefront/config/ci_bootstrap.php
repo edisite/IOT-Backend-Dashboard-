@@ -231,11 +231,11 @@ $config['ci_bootstrap'] = array(
 			'url'		=> 'report/recon',
 			'icon'		=> 'create_new_folder',                        
 		),
-//                'privemenu' => array(
-//			'name'		=> 'Privilege Menu',
-//			'url'		=> '',
-//			'icon'		=> 'widgets',
-//		),
+                'origin' => array(
+			'name'		=> 'Backup CSV',
+			'url'		=> 'Origin',
+			'icon'		=> 'widgets',
+		),
 //                'panel' => array(
 //			'name'		=> 'Admin Panel',
 //			'url'		=> 'panel',

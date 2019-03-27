@@ -1,6 +1,6 @@
 <?php
-//define('APILOCAL', 'http://localhost/dashboard/api/');
-define('APILOCAL', 'https://pdam.iot-integrasi.com/dashboard/api/');
+define('APILOCAL', 'http://localhost/dashboard/api/');
+//define('APILOCAL', 'https://pdam.iot-integrasi.com/dashboard/api/');
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates

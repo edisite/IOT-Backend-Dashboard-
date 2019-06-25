@@ -13,7 +13,7 @@ class Home extends MY_Controller {
     public function index()
     {
             //$this->render('home', 'full_width');
-        redirect(base_url().'storefront');
+        redirect(base_url().'storefront2');
     }
     public function Xdbeuxb1737vshendj() {
         $Date1 = date('Y-m-d H:i:s');

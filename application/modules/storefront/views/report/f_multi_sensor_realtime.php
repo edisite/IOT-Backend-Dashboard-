@@ -5,10 +5,10 @@
                         <div class="body">
                             <form id="form_advanced_validation" method="POST" action="<?php echo base_url(); ?>storefront/report/MultiSensorRealtime_Display">
                                 
-                                <div class="form-group form-float">
+                                <div class="form-group show-tick">
                                     <label class="form-label">List Sensor:</label>
                                     <div class="form-line">                                        
-                                        <select id="optgroup" class="ms" multiple="multiple" name="myselect[]">                                
+                                        <select class="form-control show-tick" name="myselect[]">                                
                                         <?php echo $select_output; ?>
                                         </select>
                                     </div>

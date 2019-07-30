@@ -847,7 +847,7 @@ class Report extends Admin_Controller {
             foreach ($getdatalist as $v) {
                 $getthings  = $v->thingID;
                 $getname    = $v->tName;
-                $htmloutput .= "<optgroup label='".$getname."'>";
+//                $htmloutput .= "<optgroup label='".$getname."'>";
                     $getdatasensor = $this->Miot->SensorByThingStype($getthings);
                     if($getdatasensor){
                         foreach ($getdatasensor as $sid) {                                                      
@@ -857,13 +857,12 @@ class Report extends Admin_Controller {
                             $htmloutput .= "<option value='".$getsensorid."'>".$getsensorname."</option>";
                         }
                     }                        
-                $htmloutput .= "</optgroup>";
+//                $htmloutput .= "</optgroup>";
 
             }
         }
         else{
-            $htmloutput .= "<optgroup label='sensor'>                                   
-                            </optgroup>";
+            $htmloutput .= "";
         }
         $this->mViewData['select_output'] = $htmloutput;
 
@@ -909,7 +908,7 @@ class Report extends Admin_Controller {
                 
                 $empat = 10 + $im - 5;
                 if($getjenis == "line"){
-                    $divscrip .="<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
+                    $divscrip .="<div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
                             <div class='card'>
                             <div class='body'>
                             <div id='containergauge".$im."' style='min-width: 100; height: 280px; margin: 1'></div>
@@ -933,7 +932,7 @@ class Report extends Admin_Controller {
                             http = new XMLHttpRequest();
                             postdata='sensor_id=".$getitem[$im]."'; //Probably need the escape method for values here, like you did
 
-                            http.open('POST', 'https://pdam.iot-integrasi.com/dashboard/api/iot/SensorDataSingle', true);
+                            http.open('POST', 'http://pdam.iot-integrasi.com/semarang/api/iot/SensorDataSingle', true);
 
                             //Send the proper header information along with the request
                             http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
@@ -1119,7 +1118,7 @@ function (chart) {
         http = new XMLHttpRequest();
 		postdata= 'sensor_id=".$getitem[$im]."'; //Probably need the escape method for values here, like you did
 
-		http.open('POST', 'https://pdam.iot-integrasi.com/dasboard/api/iot/SensorDataSingle', true);
+		http.open('POST', 'http://pdam.iot-integrasi.com/semarang/api/iot/SensorDataSingle', true);
 		//Send the proper header information along with the request
 //                http.setRequestHeader('Content-type', 'application/json');              
 		http.setRequestHeader('x-api-key','cahbagusanggakey')

@@ -1251,7 +1251,7 @@ class Iot extends API_Controller{
                         $arr_data_res[] = array(                                        
                                                 'ds_sensorid' => $v->ds_sensorid,
                                                 'ds_sensorname' => $v->ds_sensorname,
-                                                'ds_val' => abs($val),
+                                                'ds_val' => $val,
                                                 'ds_satuan' => $v->ds_satuan,
                                                 'ds_date' => $v->ds_date,
                                                 'ds_type' => $v->ds_tipe,

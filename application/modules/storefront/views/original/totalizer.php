@@ -2,22 +2,22 @@
 <!--    <div class="container-fluid">-->
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                     <div class="text-danger">
-                        <h3>FT INTAKE 1</h3>
+                        <h3>FT INTAKE 1(Σ)</h3>
                     </div>
                     <div style="max-width:100%; width:100%; margin:0 padding:20 0px; font-weight: bold">
                         <table class="tabBlock">
                             <tr>
                               <td class="clock" id="ds_val1">0</td>
-                              <td class="clocklg" id="ds_satuan1">l/s</td>
+                              <td class="clocklg" id="ds_satuan1">m³</td>
                             </tr>
                         </table> 
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                     <div class="text-danger">
-                        <h3>FT INTAKE 1(Σ)</h3>
+                        <h3>FT INTAKE 2(Σ)</h3>
                     </div>
                     <div style="max-width:100%; width:100%; margin:0 padding:20px;">
                         <table class="tabBlock">
@@ -28,41 +28,54 @@
                         </table>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                     <div class="text-danger">
-                            <h3>LEVEL INTAKE</h3>
+                            <h3>FT INTAKE 3(Σ)</h3>
                     </div>
                     <div style="background-color:#F3F3F3; max-width:100%; width:100%; margin:0 padding:20px;">
                         <table class="tabBlock">
                           <tr>
                             <td class="clock" id="ds_val3">0</td>
-                            <td class="clocklg" id="ds_satuan3">M</td>
+                            <td class="clocklg" id="ds_satuan3">m³</td>
                           </tr>
                         </table>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                     <div class="text-danger">
-                            <h3>LEVEL AIR SUNGAI</h3>
+                            <h3>FT INTAKE 4(Σ)</h3>
                     </div>
                     <div style="background-color:#F3F3F3; max-width:100%; width:100%; margin:0 padding:20px;">
                         <table class="tabBlock">
                           <tr>
-                            <td class="clock" id="ds_val8">0</td>
-                            <td class="clocklg" id="ds_satuan8">M</td>
+                            <td class="clock" id="ds_val4">0</td>
+                            <td class="clocklg" id="ds_satuan4">m³</td>
                           </tr>
                         </table>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                     <div class="text-danger">
-                            <h3>LEVEL AIR KANAL</h3>
+                            <h3>FT OUTPUT IPA3(Σ)</h3>
                     </div>
                     <div style="background-color:#F3F3F3; max-width:100%; width:100%; margin:0 padding:20px;">
                         <table class="tabBlock">
                           <tr>
-                            <td class="clock" id="ds_val9">0</td>
-                            <td class="clocklg" id="ds_satuan9">M</td>
+                            <td class="clock" id="ds_val5">0</td>
+                            <td class="clocklg" id="ds_satuan5">m³</td>
+                          </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="text-danger">
+                            <h3>FT TRANSPORT(Σ)</h3>
+                    </div>
+                    <div style="background-color:#F3F3F3; max-width:100%; width:100%; margin:0 padding:20px;">
+                        <table class="tabBlock">
+                          <tr>
+                            <td class="clock" id="ds_val6">0</td>
+                            <td class="clocklg" id="ds_satuan6">m³</td>
                           </tr>
                         </table>
                     </div>
@@ -71,59 +84,6 @@
         </div>         
         
         <div class="row clearfix"></div>
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                    <div class="text-danger">
-                        <h3 style="font-weight: bold" id="html_id">PI 101</h3>
-                    </div>
-                    <div style="max-width:140px; width:100%; margin:0 padding:20px;">
-                        <table class="tabBlock" align="left" cellspacing="0" cellpadding="0" border="0">
-                          <tr>
-                            <!-- <td class="clock" id="ds_val4"></td> -->
-                              <img id="ds_val4" style="width:100%;" src = "http://122.129.112.169/agus/Office/images/idle.png">
-                          </tr>
-                        </table>
-                      </div>
-                </div>            
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                    <div class="text-danger">
-                        <h3 style="font-weight: bold" id="html_id">PI 102</h3>
-                    </div>
-                    <div style="max-width:140px; width:100%; margin:0 padding:20px;">
-                        <table class="tabBlock" align="left" cellspacing="0" cellpadding="0" border="0">
-                          <tr>
-                              <img id="ds_val5" style="width:100%;" src = "http://122.129.112.169/agus/Office/images/idle.png">
-                          </tr>
-                        </table>
-                      </div>
-                </div>            
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                    <div class="text-danger">
-                        <h3 style="font-weight: bold" id="html_id">PI 103</h3>
-                    </div>
-                    <div style="max-width:140px; width:100%; margin:0 padding:20px;">
-                        <table class="tabBlock" align="left" cellspacing="0" cellpadding="0" border="0">
-                          <tr>
-                              <img id="ds_val6" style="width:100%;" src = "http://122.129.112.169/agus/Office/images/idle.png">
-                          </tr>
-                        </table>
-                      </div>
-                </div>            
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                    <div class="text-danger">
-                        <h3 style="font-weight: bold" id="html_id">PI 104</h3>
-                    </div>
-                    <div style="max-width:140px; width:100%; margin:0 padding:20px;">
-                        <table class="tabBlock" align="left" cellspacing="0" cellpadding="0" border="0">
-                          <tr>
-                              <img id="ds_val7" style="width:100%;" src = "http://122.129.112.169/agus/Office/images/idle.png">
-                          </tr>
-                        </table>
-                      </div>
-                </div>  
-            </div>
-        </div>
 <!--    </div>-->
 <!-- INTAKE IPA 1 -->
 <!-- INTAKE IPA 1 -->

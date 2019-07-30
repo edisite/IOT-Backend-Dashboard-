@@ -93,7 +93,8 @@ function dataIoT() {
   var jsonSensor ='{"daftar":[{"nomor_sensor":"22224","html_id":"ds_val25"},{"nomor_sensor":"39756","html_id":"ds_val26"},{"nomor_sensor":"50112","html_id":"ds_val27"},{"nomor_sensor":"52229","html_id":"ds_val28"},{"nomor_sensor":"17497","html_id":"ds_val29"}]}';
 
 
-  http.open("POST","https://pdam.iot-integrasi.com/dashboard/api/iot/SensorDataByGroup", true);
+  // http.open("POST","https://pdam.iot-integrasi.com/dashboard/api/iot/SensorDataByGroup", true);
+  http.open("POST","pdam.iot-integrasi.com/semarang/api/iot/SensorDataByGroup", true);
   http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
   http.setRequestHeader("x-api-key","cahbagusanggakey");
 

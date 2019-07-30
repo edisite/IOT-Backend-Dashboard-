@@ -26,14 +26,6 @@
 		font-weight:normal;
 		color:#FFF;
 	}
-	.clocksm 
-	{
-		vertical-align:middle; 
-		font-family:Helvetica;
-		font-size:12px;
-		font-weight:normal;
-		color:#00e5ff;
-	}
     
 /*    h2 
     {
@@ -66,6 +58,7 @@
                                 <li role="presentation"><a href="#ipaintake4" data-toggle="tab">IPA INTAKE 4</a></li>
                                 <li role="presentation"><a href="#transport" data-toggle="tab">TRANSPORT</a></li>
                                 <li role="presentation"><a href="#output" data-toggle="tab">OUTPUT</a></li>
+                                <li role="presentation"><a href="#totalizer" data-toggle="tab">TOTALIZER</a></li>
                             </ul>
 
                             <!-- Tab panes -->
@@ -98,6 +91,11 @@
                                 <div role="tabpanel" class="tab-pane fade tab-col-orange" id="output">
                                     <?php
                                         $this->load->view('original/sub_output');
+                                    ?>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade tab-col-orange" id="totalizer">
+                                    <?php
+                                        $this->load->view('original/totalizer');
                                     ?>
                                 </div>
                             </div>
